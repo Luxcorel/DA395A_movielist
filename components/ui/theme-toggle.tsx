@@ -22,7 +22,7 @@ export function ModeToggle() {
           <Swatch />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="start">
+      <DropdownMenuContent align="end">
         <DropdownMenuItem onClick={() => setTheme("light")}>
           Light
         </DropdownMenuItem>
