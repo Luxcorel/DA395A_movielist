@@ -40,7 +40,7 @@ export default function AddMovieForm(props: Props) {
     <div className="w-full">
       <form action={onSubmit}>
         <fieldset>
-          <legend className="text-xl mb-1">Add a new movie</legend>
+          <legend className="mb-1 text-xl">Add a new movie</legend>
 
           <Input
             name="movie-title"
@@ -62,7 +62,7 @@ export default function AddMovieForm(props: Props) {
               });
             }}
           >
-            <SelectTrigger className="w-full mt-2">
+            <SelectTrigger className="mt-2 w-full">
               <SelectValue placeholder="Choose movie rating here..." />
             </SelectTrigger>
             <SelectContent>

@@ -18,7 +18,7 @@ export default function Movie(props: Props) {
   };
 
   return (
-    <div className="w-full flex items-center justify-between py-2">
+    <div className="flex w-full items-center justify-between py-2">
       <div>{props.title}</div>
       <div className="flex items-center">
         {getStars()}

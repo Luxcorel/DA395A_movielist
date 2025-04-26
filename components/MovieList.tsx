@@ -1,10 +1,10 @@
-import { MovieDetails } from "@/types/movie-types"
+import { MovieDetails } from "@/types/movie-types";
 import Movie from "./Movie";
 
 type Props = {
   movies: MovieDetails[];
   onDeleteMovie: (movieIndex: number) => void;
-}
+};
 
 export default function MovieList(props: Props) {
   return (
@@ -21,5 +21,5 @@ export default function MovieList(props: Props) {
         );
       })}
     </ul>
-  )
+  );
 }

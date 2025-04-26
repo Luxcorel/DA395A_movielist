@@ -60,20 +60,20 @@ export default function MovieApp() {
   };
 
   return (
-    <div className="w-full p-4 flex flex-col">
+    <div className="flex w-full flex-col p-4">
       <div className="flex justify-between">
-        <h1 className="text-2xl mb-4">My movie list</h1>
+        <h1 className="mb-4 text-2xl">My movie list</h1>
         <ModeToggle />
       </div>
 
       <AddMovieForm onAddMovie={onAddMovie} />
 
-      <h2 className="text-xl mt-4 border-b-4 py-2">Saved movies</h2>
-      <div className="grow overflow-y-scroll overscroll-y-contain min-h-1/2">
+      <h2 className="mt-4 border-b-4 py-2 text-xl">Saved movies</h2>
+      <div className="min-h-1/2 grow overflow-y-scroll overscroll-y-contain">
         <MovieList movies={movies} onDeleteMovie={onDeleteMovie} />
       </div>
 
-      <div className="flex mt-2 flex-wrap justify-center gap-1">
+      <div className="mt-2 flex flex-wrap justify-center gap-1">
         <Button onMouseDown={() => onSortAlpha()} className="grow">
           Order by name
           <span>
