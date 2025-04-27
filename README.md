@@ -24,6 +24,17 @@
 ## Overview
 Movielist is a web app that allows the user to locally save a collection of movies with associated ratings. Saved movies can be sorted by rating or by name. 
 
+## Project structure
+```
+.
+├── app          # Webpage routes
+├── components   # Reusable components
+│   ├── icons    # SVG icon components
+│   └── ui       # Shadcn UI components
+├── lib          # Utility functions
+└── types        # Shared TypeScript types
+```
+
 ### Technologies used
 
 | Name                                           | Description                          |
