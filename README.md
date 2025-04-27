@@ -40,8 +40,8 @@ Movielist is a web app that allows the user to locally save a collection of movi
 | Name                                           | Description                          |
 |------------------------------------------------|--------------------------------------|
 | [Next.js](https://nextjs.org/)                 | Full-stack JavaScript framework      |
-| [Tailwind](https://tailwindcss.com/)           | CSS styling library                  |
 | [Shadcn UI](https://github.com/shadcn-ui/ui)   | UI component library                 |
+| [Tailwind](https://tailwindcss.com/)           | CSS styling library                  |
 
 ## Setup
 
